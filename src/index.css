@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-.nav-bar
+.nav-bar {
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 10px
+}
 
 #parent-body {
     padding-left: 514px;
@@ -36,16 +48,27 @@
     line-height: 36px;
     text-align: left;
     padding-bottom: 13px;
+    margin-bottom: 40px;
 }
 
 .eerste-paragraaf {
     font-size: 24px;
     line-height: 32px;
+    margin-bottom: 40px;
 }
 
 #Ingrediënten-title, #Bereidingsweize-title {
     font-size: 32px;
     line-height: 32px;
+}
+
+#Ingrediënten-title {
+    margin-bottom: 40px;
+}
+
+#Bereidingsweize-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #ingrediënten-spullen, #bereidingsweize-paragraaf, #Tip-box {
@@ -56,6 +79,8 @@
 #gehaktbrood-foto {
     width: 325px;
     object-fit: contain;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #Tip-box {
