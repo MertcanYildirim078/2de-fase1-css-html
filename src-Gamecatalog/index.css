@@ -1,0 +1,25 @@
+.Nav-container {
+    border: black 1px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    padding: 15px;
+}
+
+.Nav-Resident-Evil-8 {
+
+}
+
+.Game-Picker {
+   margin-left: 480px;
+}
+
+.Gameinfo-container {
+    
+}
