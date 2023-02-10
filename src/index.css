@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 .nav-bar {
-    background-color: aqua;
     text-align: center;
     display: flex;
     justify-content: center;
+}
+
+#Nav-hoofdgerecht {
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 a {
@@ -14,7 +18,7 @@ a {
     margin: 10px
 }
 
-#parent-body {
+.parent-body {
     padding-left: 514px;
     padding-right: 278px;
     text-align: left;
