@@ -1,3 +1,8 @@
+main {
+    width: 1000px;
+    margin: auto;
+}
+
 .Nav-container {
     border: black 1px solid;
     padding: 10px;
@@ -12,7 +17,8 @@ a {
     padding: 15px;
 }
 
-.Nav-Resident-Evil-8 {
+.Nav-Resident-Evil-8, .Nav-Minecraft, .Nav-Subnautica, .Game-Picker {
+    padding: 15px
 
 }
 
@@ -20,6 +26,43 @@ a {
    margin-left: 480px;
 }
 
+.container-body-header {
+    display: flex;
+}
+
 .Gameinfo-container {
-    
+    border: 1px black solid;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 15px;
+    height: 300px;
+    display: inline-block;
+    width: 70%;
+}
+
+.genre-1-header, .genre-2-header, .genre-3-header {
+    border: 1px black solid;
+    padding: 5px;
+    margin: 8px;
+}
+
+.Sideinfo-container {
+    border: black 1px solid;
+    border-left: 0;
+    display: inline-block;
+    width: 30%;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.images-section {
+    display: flex;
+    border: 1px black solid;
+    justify-content: space-evenly;
+}
+
+.image-1, .image-2, .image-3, .image-4 {
+    width: 200px;
+    margin: 15px;
 }
