@@ -3,6 +3,10 @@ main {
     margin: auto;
 }
 
+h1 {
+    font-size: 23px;
+}
+
 .Nav-container {
     border: black 1px solid;
     padding: 10px;
@@ -26,7 +30,7 @@ a {
    margin-left: 480px;
 }
 
-.container-body-header {
+.Container-body-header {
     display: flex;
     font-family: sans-serif;
 }
@@ -57,7 +61,7 @@ a {
     padding-top: 15px;
 }
 
-.images-section {
+.Images-section {
     display: flex;
     border: 1px black solid;
     justify-content: space-evenly;
@@ -68,13 +72,16 @@ a {
     margin: 15px;
 }
 
-.systeemeisen-section {
+.Systeemeisen-section {
     border: 1px black solid;
     padding-left: 15px;
     font-family: sans-serif;
     padding-bottom: 15px;
 }
 
-.systeemeisen-title {
-    font-size: 2em;
+.Footer {
+    border: 1px black solid;
+    padding-left: 15px;
+    font-family: serif;
+    padding-bottom: 15px;
 }
