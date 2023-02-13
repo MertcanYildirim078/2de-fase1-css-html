@@ -28,6 +28,7 @@ a {
 
 .container-body-header {
     display: flex;
+    font-family: sans-serif;
 }
 
 .Gameinfo-container {
@@ -65,4 +66,15 @@ a {
 .image-1, .image-2, .image-3, .image-4 {
     width: 200px;
     margin: 15px;
+}
+
+.systeemeisen-section {
+    border: 1px black solid;
+    padding-left: 15px;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+}
+
+.systeemeisen-title {
+    font-size: 2em;
 }
