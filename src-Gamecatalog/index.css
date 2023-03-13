@@ -26,6 +26,10 @@ a {
 
 }
 
+li, div {
+    margin-bottom: 20px
+}
+
 .Game-Picker {
    margin-left: 480px;
 }
