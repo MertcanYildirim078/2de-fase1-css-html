@@ -12,6 +12,7 @@ h1 {
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 1em;
 }
 
 a {
@@ -93,4 +94,10 @@ li, div {
 .gameBoxStyle {
     border: 1px solid black;
     padding: 5px;
+}
+
+#switchButton {
+    margin-right: 1em;
+    height: 1em;
+    /* position: sticky; */
 }
