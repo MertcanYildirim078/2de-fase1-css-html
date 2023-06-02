@@ -89,3 +89,8 @@ li, div {
     font-family: serif;
     padding-bottom: 15px;
 }
+
+.gameBoxStyle {
+    border: 1px solid black;
+    padding: 5px;
+}
