@@ -101,3 +101,18 @@ li, div {
     height: 1em;
     /* position: sticky; */
 }
+
+#priceFilterInput {
+    height: 3.3em;
+}
+
+#priceFilterButton {
+    height: 3.65em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#genre, #rating {
+    height: 3.65em;
+    margin-right: 1em;
+}
